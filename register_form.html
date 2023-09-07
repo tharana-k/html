@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="registerwrap">
+        <h1>Register Form</h1>
+<form action="">
+    <div class="wrap">
+<label for="name">Name</label>
+<input type="text" id="name"/>
+</div>
+<div class="wrap">
+<label for="mobile">Enter Mobile</label>
+<input type="number" id="mobile"/>
+</div>
+<div class="wrap">
+    <label for="email">Enter Email</label>
+    <input type="email"  id="email" placeholder="email"/>
+    </div>
+    <div class="wrap">
+        <label for="password">password</label>
+        <input type="password"  id="password" maxlength="10"  pattern="[!@#$%^&*][a-z][A-Z][0-9]"/>
+        </div>
+        <div class="wrap">
+            <label for="dob">DOB</label>
+            <input type="date"  id="dob" />
+            </div>
+            <div class="wrap">
+                <label for="time">Time</label>
+                <input type="time"  id="time" />
+                </div>
+  <div class="wrap">
+    <label for="address">Address</label>
+<textarea id="textarea" rows="5" cols="30"> </textarea>
+</div>
+<div class="wrap">
+    <label for="gender">Gender</label>
+    <input type="radio" name="gender"/>Male
+    <input type="radio" name="gender"/>Female
+    </div>
+    <div class="wrap">
+        <label for="qualification">Qualification</label>
+        <input type="checkbox" name="qualification"/>sslc
+        <input type="checkbox" name="qualification"/>plustwo
+        <input type="checkbox" name="qualification"/>degree
+        </div>
+        <div class="wrap">
+            <label for="district">District</label>
+            <select name="district" id="district">
+                <option value="Select District">Select District</option>
+<option value="kannur">Kannur</option>
+
+            </select>
+            </div>
+<div class="wrap">
+<input type="file"/>
+ </div>
+ <label></label>
+ <button type="submit">Submit</button>
+</form>
+    </div>
+  
+</body>
+</html>
